@@ -136,3 +136,11 @@ pre { background-color: var(--background-color);  border: none;  padding: 0px;  
 .highlight .vg { color: #008080 } /* Name.Variable.Global */
 .highlight .vi { color: #008080 } /* Name.Variable.Instance */
 .highlight .il { color: #009999 } /* Literal.Number.Integer.Long */
+
+table tbody:not(:first-child) tr td {
+    padding-top:30px;
+}
+
+.cover {
+    padding-right: 10px;
+}

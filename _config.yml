@@ -13,3 +13,14 @@
 
 plugins:
   - jekyll-seo-tag
+
+header_pages:
+  - index.md
+  - blog/blog.md
+  - books/books.md
+  - projects/projects.md
+
+include:
+  - _covers
+
+baseurl: ""

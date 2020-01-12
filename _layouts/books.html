@@ -6,12 +6,22 @@ layout: default
 {% assign contentwonl = content | strip_newlines %} {% unless contentwonl == ""  %} <br /> {% endunless %} <!-- add line break if there is any content -->
 
 {%- if site.categories.books.size > 0 -%}
-  <ul>
-    {%- for post in site.categories.books -%}
-    <li>
-      {%- assign date_format = "%Y-%m-%d" -%}
-      [ {{ post.date | date: date_format }} ] <a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
-    </li>
+  <table style="width:100%">
+    <tbody>
+      {%- for post in site.categories.books -%}
+      <tr>
+        <td valign="top" class="cover">
+          <img src={{ post.image }} height=180 width=120/>
+        </td>
+        <td valign="top">
+          {%- assign date_format = "%Y-%m-%d" -%}
+          <p><b>{{ post.title | escape }}</b></p>
+          <p>Date Read: {{ post.date | date: date_format }}, How Strongly I Recommend: 7/10</p>
+          </br>
+          <p>{{ post.summary }} </p>
+        </td>
+      </tr>
+    </tbody>
     {%- endfor -%}
-  </ul>
+  </table>
 {%- endif -%}
