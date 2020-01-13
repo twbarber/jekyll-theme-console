@@ -3,8 +3,9 @@ layout: post
 title:  "Remote: Office Not Required"
 author: "Jason Fried and David Heinemeier Hansson"
 date:   2019-12-30 00:00:00 -0400
+rating: 8
 image: /assets/_covers/RemoteOfficeNotRequired.jpg
-summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. In metus vulputate eu scelerisque felis imperdiet proin fermentum leo. Lobortis mattis aliquam faucibus purus in. Morbi tincidunt ornare massa eget egestas purus viverra. Leo urna molestie at elementum eu facilisis sed. Consectetur purus ut faucibus pulvinar elementum integer enim neque. Aenean pharetra magna ac placerat vestibulum.
+summary: Introduction to the benefits of remote work, and how to sell it as a viable option to decision makers at your company. Briefly touches on strategies for success while working remote, and how remote teams can operate most efficiently. Best serves folks looking to go remote, or just starting to work away from the office. 
 ---
 
 # Remote: Office Not Required
