@@ -20,7 +20,4 @@ header_pages:
   - books/books.md
   - projects/projects.md
 
-include:
-  - _covers
-
 baseurl: ""
