@@ -15,7 +15,7 @@ layout: default
         </td>
         <td valign="top">
           {%- assign date_format = "%Y-%m-%d" -%}
-          <p><b><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></b></p>
+          <p><b><u>{{ post.title | escape }}</u></b></p>
           <p><i>Date Read: {{ post.date | date: date_format }}, How Strongly I Recommend: {{ post.rating }}/10</i></p>
           </br>
           <p>{{ post.summary }} </p>
