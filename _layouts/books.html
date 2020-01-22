@@ -15,10 +15,10 @@ layout: default
         </td>
         <td valign="top">
           {%- assign date_format = "%Y-%m-%d" -%}
-          <p><b><u>{{ post.title | escape }}</u></b></p>
+          <p><b><u>{{ post.title | escape }} By {{ post.author | escape }}</u></b></p>
           <p><i>Date Read: {{ post.date | date: date_format }}, How Strongly I Recommend: {{ post.rating }}/10</i></p>
           </br>
-          <p>{{ post.summary }} </p>
+          <p>{{ post.summary }}</p>
         </td>
       </tr>
     </tbody>
